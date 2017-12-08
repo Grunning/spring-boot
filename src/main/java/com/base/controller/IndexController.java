@@ -24,7 +24,7 @@ public class IndexController {
     @Autowired
     private AppProperties appProperties;
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     private String index(ModelMap model) {
         model.put("name", "Winterbaby High");
         return "index";
